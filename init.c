@@ -3,7 +3,7 @@
 #include "init.h"
 
 // void initPlayers(player players[PLAYERS_NUM]){
-//     // implement here the functionality to initialize the players
+    
 // }
 
 //Set Invalid Squares (where it is not possible to place stacks)

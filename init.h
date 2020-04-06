@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 #ifndef INIT_H
 #define INIT_H
 
@@ -14,15 +16,10 @@ typedef enum _squareType { VALID, INVALID } squareType;
 
 //Player
 typedef struct _player{
-    //the color associated with the player
     color playerColor;
-    /*
-     * A player should also be characterized by:
-     * name,
-     * number of adversary's pieces captured,
-     * number of own pieces kept.
-     *
-    */
+    char name[32];
+    size_t kept;
+    size_t taken;
 } player;
 
 // A piece
