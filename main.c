@@ -3,10 +3,11 @@
 #include "io.h"
 
 int main() {
-    player players[PLAYERS_NUM];
+    player players[N_PLAYERS];
     square board[BOARD_SIZE][BOARD_SIZE];
 
-    // initPlayers(players);
+    initPlayers(players);
+    printf("%s\n", players[0].name);
 
     initBoard(board);
     printBoard(board);

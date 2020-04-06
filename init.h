@@ -4,10 +4,11 @@
 #define INIT_H
 
 #define BOARD_SIZE 8
-#define PLAYERS_NUM 2
+#define N_PLAYERS 2
+#define MAX_NAME_LENGTH 32
 
 //colors that a piece can have
-typedef enum _color { RED, GREEN } color;
+typedef enum _colour { RED, GREEN } colour;
 
 // Square types
 //INVALID: squares that are on the sides and where no piece can be placed
@@ -16,8 +17,8 @@ typedef enum _squareType { VALID, INVALID } squareType;
 
 //Player
 typedef struct _player{
-    color playerColor;
-    char name[32];
+    colour colour;
+    char name[MAX_NAME_LENGTH];
     size_t kept;
     size_t taken;
 } player;
@@ -25,7 +26,7 @@ typedef struct _player{
 // A piece
 typedef struct _piece {
     //the color associated with a piece
-    color p_color;
+    colour p_color;
 
     // This is a pointer to the next pieces
     // to create a stack. For this lab you do not have to think too much about it.
@@ -47,7 +48,7 @@ typedef struct square {
 } square;
 
 //Function to create the players
-void initPlayers(player players[PLAYERS_NUM]);
+void initPlayers(player players[2]);
 
 //Function to create the board
 void initBoard(square board[BOARD_SIZE][BOARD_SIZE]);

@@ -2,19 +2,25 @@
 #include <stdlib.h>
 #include "init.h"
 
-// void initPlayers(player players[PLAYERS_NUM]){
-    
-// }
+void initPlayers(player players[N_PLAYERS]) {
+  colour colours[] = { RED, GREEN };
+  for (size_t i = 0; i < N_PLAYERS; i++) {
+    players[i].colour = colours[i];
+    printf("Player %zu, please enter your name: ", i + 1);
+    scanf("%s", players[i].name);
+    players[i].kept = players[i].taken = 0;
+  }
+}
 
 //Set Invalid Squares (where it is not possible to place stacks)
-void setInvalid(square * s){
+void setInvalid(square * s) {
   s->type = INVALID;
   s->stack = NULL;
   s->num_pieces = 0;
 }
 
 //Set Empty Squares (with no pieces/stacks)
-void setEmpty(square * s){
+void setEmpty(square * s) {
   s->type = VALID;
   s->stack = NULL;
   s->num_pieces = 0;
@@ -51,7 +57,6 @@ void initBoard(square board[BOARD_SIZE][BOARD_SIZE]) {
   for (size_t i = 0; i < BOARD_SIZE; i++) {
     for (size_t j = 0; j< BOARD_SIZE; j++) {
       size_t horizontalDistance = distanceFromEdge(j, BOARD_SIZE) - 1;
-      printf("%zu\n", horizontalDistance);
       //invalid squares
       if (distanceFromCorner(i, j, BOARD_SIZE) < 2) setInvalid(&board[i][j]);
       else if (distanceFromEdge(i, BOARD_SIZE) == 0 || distanceFromEdge(j, BOARD_SIZE) == 0) {
