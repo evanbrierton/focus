@@ -1,16 +1,20 @@
-
+#include <stdbool.h>
 #include <stdio.h>
 #include "io.h"
 
 int main() {
-    player players[N_PLAYERS];
-    square board[BOARD_SIZE][BOARD_SIZE];
+    Player players[N_PLAYERS];
+    Square board[BOARD_SIZE][BOARD_SIZE];
+    size_t turn = 0;
+    bool won = false;
 
-    initPlayers(players);
-    printf("%s\n", players[0].name);
+    init(players, board);
 
-    initBoard(board);
-    printBoard(board);
+    while (!won) {
+      printBoard(board);
+      prompt(players[turn % N_PLAYERS], board);
+      turn += 1;
+    }
 
     return 0;
 }

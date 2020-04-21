@@ -5,6 +5,7 @@
 #define IO_H
 
 //Function to print the board
-void printBoard(square board[BOARD_SIZE][BOARD_SIZE]);
+void printBoard(Square board[BOARD_SIZE][BOARD_SIZE]);
+void prompt(Player, Square board[BOARD_SIZE][BOARD_SIZE]);
 
 #endif

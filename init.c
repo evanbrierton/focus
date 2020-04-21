@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include "init.h"
 
-void initPlayers(player players[N_PLAYERS]) {
-  colour colours[] = { RED, GREEN };
+void initPlayers(Player players[N_PLAYERS]) {
+  Colour colours[] = { RED, GREEN };
   for (size_t i = 0; i < N_PLAYERS; i++) {
     players[i].colour = colours[i];
     printf("Player %zu, please enter your name: ", i + 1);
@@ -13,35 +13,39 @@ void initPlayers(player players[N_PLAYERS]) {
 }
 
 //Set Invalid Squares (where it is not possible to place stacks)
-void setInvalid(square * s) {
-  s->type = INVALID;
-  s->stack = NULL;
-  s->num_pieces = 0;
+void setInvalid(Square * s) {
+  s->valid = false;
+  s->head = NULL;
+  s->tail = s->head;
+  s->height = 0;
 }
 
 //Set Empty Squares (with no pieces/stacks)
-void setEmpty(square * s) {
-  s->type = VALID;
-  s->stack = NULL;
-  s->num_pieces = 0;
+void setEmpty(Square * s) {
+  s->valid = true;
+  s->head = NULL;
+  s->tail = s->head;
+  s->height = 0;
 }
 
 //Set squares  with a GREEN piece
-void setGreen(square * s) {
-  s->type = VALID;
-  s->stack = malloc(sizeof(piece));
-  s->stack->p_color = GREEN;
-  s->stack->next = NULL;
-  s->num_pieces = 1;
+void setGreen(Square * s) {
+  s->valid = true;
+  s->head = malloc(sizeof(Piece));
+  s->head->colour = GREEN;
+  s->head->next = NULL;
+  s->tail = s->head;
+  s->height = 1;
 }
 
 //Set squares with a RED piece
-void setRed(square * s) {
-  s->type = VALID;
-  s->stack = malloc(sizeof(piece));
-  s->stack->p_color = RED;
-  s->stack->next = NULL;
-  s->num_pieces = 1;
+void setRed(Square * s) {
+  s->valid = true;
+  s->head = malloc(sizeof(Piece));
+  s->head->colour = RED;
+  s->head->next = NULL;
+  s->tail = s->head;
+  s->height = 1;
 }
 
 size_t distanceFromEdge(size_t i, size_t size) {
@@ -53,7 +57,7 @@ size_t distanceFromCorner(size_t i, size_t j, size_t size) {
 }
 
 //initializes the board
-void initBoard(square board[BOARD_SIZE][BOARD_SIZE]) {
+void initBoard(Square board[BOARD_SIZE][BOARD_SIZE]) {
   for (size_t i = 0; i < BOARD_SIZE; i++) {
     for (size_t j = 0; j< BOARD_SIZE; j++) {
       size_t horizontalDistance = distanceFromEdge(j, BOARD_SIZE) - 1;
@@ -68,4 +72,9 @@ void initBoard(square board[BOARD_SIZE][BOARD_SIZE]) {
       else setGreen(&board[i][j]);
     }
   }
+}
+
+void init(Player players[N_PLAYERS], Square board[BOARD_SIZE][BOARD_SIZE]) {
+  initPlayers(players);
+  initBoard(board);
 }
