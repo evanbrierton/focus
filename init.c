@@ -8,7 +8,7 @@ void initPlayers(Player players[N_PLAYERS]) {
     players[i].colour = colours[i];
     printf("Player %zu, please enter your name: ", i + 1);
     scanf("%s", players[i].name);
-    players[i].kept = players[i].taken = 0;
+    players[i].reserved = players[i].captured = 0;
   }
 }
 
@@ -16,7 +16,7 @@ void initPlayers(Player players[N_PLAYERS]) {
 void setInvalid(Square * s) {
   s->valid = false;
   s->head = NULL;
-  s->tail = s->head;
+  s->tail = NULL;
   s->height = 0;
 }
 
@@ -24,7 +24,7 @@ void setInvalid(Square * s) {
 void setEmpty(Square * s) {
   s->valid = true;
   s->head = NULL;
-  s->tail = s->head;
+  s->tail = NULL;
   s->height = 0;
 }
 
@@ -32,9 +32,11 @@ void setEmpty(Square * s) {
 void setGreen(Square * s) {
   s->valid = true;
   s->head = malloc(sizeof(Piece));
+  s->tail = malloc(sizeof(Piece));
   s->head->colour = GREEN;
+  s->head->prev = NULL;
   s->head->next = NULL;
-  s->tail = s->head;
+  *s->tail = *s->head;
   s->height = 1;
 }
 
@@ -42,9 +44,11 @@ void setGreen(Square * s) {
 void setRed(Square * s) {
   s->valid = true;
   s->head = malloc(sizeof(Piece));
+  s->tail = malloc(sizeof(Piece));
   s->head->colour = RED;
+  s->head->prev = NULL;
   s->head->next = NULL;
-  s->tail = s->head;
+  *s->tail = *s->head;
   s->height = 1;
 }
 
