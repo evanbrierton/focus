@@ -66,14 +66,14 @@ void initBoard(Square board[BOARD_SIZE][BOARD_SIZE]) {
     for (size_t j = 0; j< BOARD_SIZE; j++) {
       size_t horizontalDistance = distanceFromEdge(j, BOARD_SIZE) - 1;
       //invalid squares
-      if (distanceFromCorner(i, j, BOARD_SIZE) < 2) setInvalid(&board[i][j]);
+      if (distanceFromCorner(i, j, BOARD_SIZE) < 2) setInvalid(&(board[i][j]));
       else if (distanceFromEdge(i, BOARD_SIZE) == 0 || distanceFromEdge(j, BOARD_SIZE) == 0) {
-        setEmpty(&board[i][j]);
+        setEmpty(&(board[i][j]));
       }
       else if(((i % 2) + (horizontalDistance - (horizontalDistance % 2)) / 2) % 2) {
-        setRed(&board[i][j]);
+        setRed(&(board[i][j]));
       }
-      else setGreen(&board[i][j]);
+      else setGreen(&(board[i][j]));
     }
   }
 }

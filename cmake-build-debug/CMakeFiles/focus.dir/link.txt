@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/focus.dir/main.c.o CMakeFiles/focus.dir/io.c.o CMakeFiles/focus.dir/init.c.o CMakeFiles/focus.dir/actions.c.o CMakeFiles/focus.dir/utils.c.o  -o focus 

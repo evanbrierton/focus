@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="focus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="focus">
+				<Option output="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/focus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 focus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="focus/fast">
+				<Option output="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/focus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 focus/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/evanbrierton/Desktop/Computer\ Science/Stage\ 1/Spring/Software\ Engineering\ Project\ 1/Assignment\ 2/focus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/actions.c">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/actions.h">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/init.c">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/init.h">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/io.c">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/io.h">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/main.c">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/utils.c">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/utils.h">
+			<Option target="focus"/>
+		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

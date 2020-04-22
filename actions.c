@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <assert.h>
 #include "init.h"
 
 typedef struct _position {
@@ -121,5 +122,5 @@ void peek(Player player, Square board[BOARD_SIZE][BOARD_SIZE]) {
     current = current->next;
   }
 
-  puts("  <Bottom>");
+  puts("  <Bottom>\n");
 }

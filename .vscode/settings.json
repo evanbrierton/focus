@@ -38,6 +38,8 @@
     "*.tcc": "c",
     "streambuf": "c",
     "bitset": "c",
-    "chrono": "c"
+    "chrono": "c",
+    "assert.h": "c",
+    "stdlib.h": "c"
   }
 }

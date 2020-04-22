@@ -9,7 +9,7 @@
 #define MAX_NAME_LENGTH 32
 
 //colors that a piece can have
-typedef enum _colour { RED, GREEN, BLANK = 0 } Colour;
+typedef enum _colour { RED = 1, GREEN = 2, BLANK = 0 } Colour;
 
 //Player
 typedef struct _player{
