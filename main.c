@@ -1,9 +1,7 @@
 #include <stdbool.h>
 #include <stdio.h>
-#include <assert.h>
 #include "io.h"
 #include "utils.h"
-#include "actions.h"
 
 int main() {
     Player players[N_PLAYERS];

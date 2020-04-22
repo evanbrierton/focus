@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <assert.h>
 #include "init.h"
 
 typedef struct _position {
@@ -109,7 +108,7 @@ char * getColourString(Piece * piece) {
   return piece->colour == GREEN ? "\033[1;32mG\033[0m" : "\033[1;31mR\033[0m";
 }
 
-void peek(Player player, Square board[BOARD_SIZE][BOARD_SIZE]) {
+void peek(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
   puts("Please enter the coordinates you'd like to peek in the form \"x y\".");
   position pos = promptPosition(board);
   Square target = board[pos.y][pos.x];
