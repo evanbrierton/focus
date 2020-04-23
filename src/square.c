@@ -40,6 +40,7 @@ void pop(Square * square, Player * player) {
   // If the piece is of a different colour, increment the players capture count
   else player->captured++;
   // Move the tail 1 further up the stack
+  free(square->tail);
   square->tail = square->tail->prev; 
   // Set the tails next to NULL effectively removing the bottom piece
   square->tail->next = NULL;
