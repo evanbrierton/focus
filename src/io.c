@@ -86,8 +86,7 @@ size_t prompt(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
 
   // Otherwise reprompt the user for action
   printBoard(board);
-  prompt(player, board);
-  return 0;
+  return prompt(player, board);
 }
 
 // Function to prompt a user to input a position, used in various actions
@@ -98,14 +97,13 @@ position promptPosition(Square board[BOARD_SIZE][BOARD_SIZE]) {
   // Prompt user for input
   printf("Coordinates: ");
   fflush(stdin);
-  scanf("%zu %zu", &x, &y); // NOLINT
-  fflush(stdin);
+  int result = scanf("%zu %zu", &x, &y); // NOLINT
   puts("\n");
 
   // Checks that the square is within the bounds of the board and reprompts otherwise
-  if (x <= 0 || BOARD_SIZE < x  || y <= 0 || BOARD_SIZE < y)  {
-    puts("Position out of bounds");
-    promptPosition(board);
+  if (result != 2 || x <= 0 || BOARD_SIZE < x  || y <= 0 || BOARD_SIZE < y)  {
+    puts("Invalid position, try another one.");
+    return promptPosition(board);
   }
 
   // Create a position struct given the input coordinates and return it

@@ -18,9 +18,9 @@ src/CMakeFiles/focus.dir/io.c.o
  ../includes/utils.h
  /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/io.c
 src/CMakeFiles/focus.dir/main.c.o
+ ../includes/init.h
+ ../includes/io.h
  ../includes/utils.h
- /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/includes/init.h
- /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/includes/io.h
  /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/main.c
 src/CMakeFiles/focus.dir/square.c.o
  ../includes/init.h

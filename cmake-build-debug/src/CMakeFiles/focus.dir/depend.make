@@ -17,9 +17,9 @@ src/CMakeFiles/focus.dir/io.c.o: ../includes/init.h
 src/CMakeFiles/focus.dir/io.c.o: ../includes/utils.h
 src/CMakeFiles/focus.dir/io.c.o: ../src/io.c
 
-src/CMakeFiles/focus.dir/main.c.o: ../includes/utils.h
 src/CMakeFiles/focus.dir/main.c.o: ../includes/init.h
 src/CMakeFiles/focus.dir/main.c.o: ../includes/io.h
+src/CMakeFiles/focus.dir/main.c.o: ../includes/utils.h
 src/CMakeFiles/focus.dir/main.c.o: ../src/main.c
 
 src/CMakeFiles/focus.dir/square.c.o: ../includes/init.h

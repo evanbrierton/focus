@@ -28,16 +28,6 @@ init.h
 init.h
 ../includes/init.h
 
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/includes/init.h
-stddef.h
--
-stdbool.h
--
-
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/includes/io.h
-init.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/includes/init.h
-
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/actions.c
 stdio.h
 -
@@ -48,14 +38,6 @@ utils.h
 square.h
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/square.h
 
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/init.c
-stdio.h
--
-square.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/square.h
-utils.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.h
-
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/io.c
 stdio.h
 -
@@ -65,26 +47,4 @@ actions.h
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/actions.h
 utils.h
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.h
-
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/main.c
-stdbool.h
--
-stdio.h
--
-../includes/io.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/includes/io.h
-utils.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.h
-
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/square.c
-stdlib.h
--
-init.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/init.h
-
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.c
-init.h
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/init.h
-stdlib.h
--
 

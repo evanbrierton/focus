@@ -16,8 +16,7 @@ void move(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
   if (!validOrigin(*player, *origin)) {
     puts("Invalid origin, try another square.");
     printBoard(board);
-    move(player, board);
-    return;
+    return move(player, board);
   }
 
   // Prompt the player to input a target square
@@ -49,12 +48,11 @@ void place(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
   if (!target->valid) {
     puts("Invalid target, try another square.");
     printBoard(board);
-    place(player, board);
-    return;
+    return place(player, board);
   }
 
   push(target, player); // Push the player's piece onto the top of the stack
-  player->reserved--;   // Decrenment the player's reserve
+  player->reserved--;   // Decrement the player's reserve
 }
 
 // Function to execute a player's "peek" action
