@@ -57,87 +57,87 @@ include CMakeFiles/focus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/focus.dir/flags.make
 
-CMakeFiles/focus.dir/main.c.o: CMakeFiles/focus.dir/flags.make
-CMakeFiles/focus.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/focus.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/main.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/main.c"
+CMakeFiles/focus.dir/src/main.c.o: CMakeFiles/focus.dir/flags.make
+CMakeFiles/focus.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/focus.dir/src/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/src/main.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/main.c"
 
-CMakeFiles/focus.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/main.c" > CMakeFiles/focus.dir/main.c.i
+CMakeFiles/focus.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/src/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/main.c" > CMakeFiles/focus.dir/src/main.c.i
 
-CMakeFiles/focus.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/main.c" -o CMakeFiles/focus.dir/main.c.s
+CMakeFiles/focus.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/src/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/main.c" -o CMakeFiles/focus.dir/src/main.c.s
 
-CMakeFiles/focus.dir/io.c.o: CMakeFiles/focus.dir/flags.make
-CMakeFiles/focus.dir/io.c.o: ../io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/focus.dir/io.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/io.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/io.c"
+CMakeFiles/focus.dir/src/init.c.o: CMakeFiles/focus.dir/flags.make
+CMakeFiles/focus.dir/src/init.c.o: ../src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/focus.dir/src/init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/src/init.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/init.c"
 
-CMakeFiles/focus.dir/io.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/io.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/io.c" > CMakeFiles/focus.dir/io.c.i
+CMakeFiles/focus.dir/src/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/src/init.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/init.c" > CMakeFiles/focus.dir/src/init.c.i
 
-CMakeFiles/focus.dir/io.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/io.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/io.c" -o CMakeFiles/focus.dir/io.c.s
+CMakeFiles/focus.dir/src/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/src/init.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/init.c" -o CMakeFiles/focus.dir/src/init.c.s
 
-CMakeFiles/focus.dir/init.c.o: CMakeFiles/focus.dir/flags.make
-CMakeFiles/focus.dir/init.c.o: ../init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/focus.dir/init.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/init.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/init.c"
+CMakeFiles/focus.dir/src/actions.c.o: CMakeFiles/focus.dir/flags.make
+CMakeFiles/focus.dir/src/actions.c.o: ../src/actions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/focus.dir/src/actions.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/src/actions.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/actions.c"
 
-CMakeFiles/focus.dir/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/init.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/init.c" > CMakeFiles/focus.dir/init.c.i
+CMakeFiles/focus.dir/src/actions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/src/actions.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/actions.c" > CMakeFiles/focus.dir/src/actions.c.i
 
-CMakeFiles/focus.dir/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/init.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/init.c" -o CMakeFiles/focus.dir/init.c.s
+CMakeFiles/focus.dir/src/actions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/src/actions.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/actions.c" -o CMakeFiles/focus.dir/src/actions.c.s
 
-CMakeFiles/focus.dir/actions.c.o: CMakeFiles/focus.dir/flags.make
-CMakeFiles/focus.dir/actions.c.o: ../actions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/focus.dir/actions.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/actions.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/actions.c"
+CMakeFiles/focus.dir/src/square.c.o: CMakeFiles/focus.dir/flags.make
+CMakeFiles/focus.dir/src/square.c.o: ../src/square.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/focus.dir/src/square.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/src/square.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/square.c"
 
-CMakeFiles/focus.dir/actions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/actions.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/actions.c" > CMakeFiles/focus.dir/actions.c.i
+CMakeFiles/focus.dir/src/square.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/src/square.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/square.c" > CMakeFiles/focus.dir/src/square.c.i
 
-CMakeFiles/focus.dir/actions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/actions.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/actions.c" -o CMakeFiles/focus.dir/actions.c.s
+CMakeFiles/focus.dir/src/square.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/src/square.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/square.c" -o CMakeFiles/focus.dir/src/square.c.s
 
-CMakeFiles/focus.dir/utils.c.o: CMakeFiles/focus.dir/flags.make
-CMakeFiles/focus.dir/utils.c.o: ../utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/focus.dir/utils.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/utils.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/utils.c"
+CMakeFiles/focus.dir/src/utils.c.o: CMakeFiles/focus.dir/flags.make
+CMakeFiles/focus.dir/src/utils.c.o: ../src/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/focus.dir/src/utils.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/focus.dir/src/utils.c.o   -c "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.c"
 
-CMakeFiles/focus.dir/utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/utils.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/utils.c" > CMakeFiles/focus.dir/utils.c.i
+CMakeFiles/focus.dir/src/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/focus.dir/src/utils.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.c" > CMakeFiles/focus.dir/src/utils.c.i
 
-CMakeFiles/focus.dir/utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/utils.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/utils.c" -o CMakeFiles/focus.dir/utils.c.s
+CMakeFiles/focus.dir/src/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/focus.dir/src/utils.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/utils.c" -o CMakeFiles/focus.dir/src/utils.c.s
 
 # Object files for target focus
 focus_OBJECTS = \
-"CMakeFiles/focus.dir/main.c.o" \
-"CMakeFiles/focus.dir/io.c.o" \
-"CMakeFiles/focus.dir/init.c.o" \
-"CMakeFiles/focus.dir/actions.c.o" \
-"CMakeFiles/focus.dir/utils.c.o"
+"CMakeFiles/focus.dir/src/main.c.o" \
+"CMakeFiles/focus.dir/src/init.c.o" \
+"CMakeFiles/focus.dir/src/actions.c.o" \
+"CMakeFiles/focus.dir/src/square.c.o" \
+"CMakeFiles/focus.dir/src/utils.c.o"
 
 # External object files for target focus
 focus_EXTERNAL_OBJECTS =
 
-focus: CMakeFiles/focus.dir/main.c.o
-focus: CMakeFiles/focus.dir/io.c.o
-focus: CMakeFiles/focus.dir/init.c.o
-focus: CMakeFiles/focus.dir/actions.c.o
-focus: CMakeFiles/focus.dir/utils.c.o
+focus: CMakeFiles/focus.dir/src/main.c.o
+focus: CMakeFiles/focus.dir/src/init.c.o
+focus: CMakeFiles/focus.dir/src/actions.c.o
+focus: CMakeFiles/focus.dir/src/square.c.o
+focus: CMakeFiles/focus.dir/src/utils.c.o
 focus: CMakeFiles/focus.dir/build.make
 focus: CMakeFiles/focus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable focus"

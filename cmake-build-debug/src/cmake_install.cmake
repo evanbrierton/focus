@@ -1,4 +1,4 @@
-# Install script for directory: /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus
+# Install script for directory: /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,18 +32,3 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/src/cmake_install.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

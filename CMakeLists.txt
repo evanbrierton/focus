@@ -3,4 +3,4 @@ project(focus C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(focus main.c io.c init.c actions.c utils.c)
+add_subdirectory(src)

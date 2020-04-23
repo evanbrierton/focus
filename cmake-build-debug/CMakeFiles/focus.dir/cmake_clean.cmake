@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/focus.dir/actions.c.o"
-  "CMakeFiles/focus.dir/init.c.o"
-  "CMakeFiles/focus.dir/io.c.o"
-  "CMakeFiles/focus.dir/main.c.o"
-  "CMakeFiles/focus.dir/utils.c.o"
+  "CMakeFiles/focus.dir/src/actions.c.o"
+  "CMakeFiles/focus.dir/src/init.c.o"
+  "CMakeFiles/focus.dir/src/main.c.o"
+  "CMakeFiles/focus.dir/src/square.c.o"
+  "CMakeFiles/focus.dir/src/utils.c.o"
   "focus"
   "focus.pdb"
 )

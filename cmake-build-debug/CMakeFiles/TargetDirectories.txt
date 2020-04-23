@@ -1,3 +1,5 @@
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles/focus.dir
+/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/src/CMakeFiles/focus.dir

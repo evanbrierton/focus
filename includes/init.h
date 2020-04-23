@@ -8,10 +8,8 @@
 #define N_PLAYERS 2
 #define MAX_NAME_LENGTH 32
 
-//colors that a piece can have
-typedef enum _colour { RED = 1, GREEN = 2, BLANK = 0 } Colour;
+typedef enum _colour { BLANK = 0, RED = 1, GREEN = 2 } Colour;
 
-//Player
 typedef struct _player{
     Colour colour;
     char name[MAX_NAME_LENGTH];
@@ -19,33 +17,29 @@ typedef struct _player{
     size_t captured;
 } Player;
 
-// A piece
 typedef struct _piece {
-    //the color associated with a piece
     Colour colour;
 
-    // This is a pointer to the next pieces
-    // to create a stack. For this lab you do not have to think too much about it.
     struct _piece * prev;
     struct _piece * next;
 
 } Piece;
 
-// A Square of the board
 typedef struct _square {
-    // type of the square (VALID/INVALID)
     bool valid;
 
-    //the piece or the top piece on the stack
     Piece * head;
     Piece * tail;
 
-    //number of pieces on the square
     size_t height;
 } Square;
 
+typedef struct _position {
+  size_t x;
+  size_t y;
+} position;
+
 void init(Player players[N_PLAYERS], Square board[BOARD_SIZE][BOARD_SIZE]);
-void setRed(Square *);
-void setGreen(Square *);
+void setPiece(Square *, Colour colour);
 
 #endif

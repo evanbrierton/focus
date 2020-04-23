@@ -40,6 +40,14 @@
     "bitset": "c",
     "chrono": "c",
     "assert.h": "c",
-    "stdlib.h": "c"
-  }
+    "stdlib.h": "c",
+    "stdio.h": "c",
+    "io.h": "c",
+    "actions.h": "c",
+    "init.h": "c",
+    "utils.h": "c"
+  },
+  "clang.cflags": [
+    "-I${workspaceRoot}/includes"
+  ]
 }

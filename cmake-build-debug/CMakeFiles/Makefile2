@@ -53,46 +53,64 @@ CMAKE_BINARY_DIR = "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/focus.dir/all
+all: src/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/focus.dir/clean
+clean: src/clean
 
 .PHONY : clean
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/preinstall
 
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/focus.dir
+# Directory level rules for directory src
+
+# Recursive "all" directory target.
+src/all: src/CMakeFiles/focus.dir/all
+
+.PHONY : src/all
+
+# Recursive "clean" directory target.
+src/clean: src/CMakeFiles/focus.dir/clean
+
+.PHONY : src/clean
+
+# Recursive "preinstall" directory target.
+src/preinstall:
+
+.PHONY : src/preinstall
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/focus.dir
 
 # All Build rule for target.
-CMakeFiles/focus.dir/all:
-	$(MAKE) -f CMakeFiles/focus.dir/build.make CMakeFiles/focus.dir/depend
-	$(MAKE) -f CMakeFiles/focus.dir/build.make CMakeFiles/focus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6 "Built target focus"
-.PHONY : CMakeFiles/focus.dir/all
+src/CMakeFiles/focus.dir/all:
+	$(MAKE) -f src/CMakeFiles/focus.dir/build.make src/CMakeFiles/focus.dir/depend
+	$(MAKE) -f src/CMakeFiles/focus.dir/build.make src/CMakeFiles/focus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target focus"
+.PHONY : src/CMakeFiles/focus.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/focus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/focus.dir/all
+src/CMakeFiles/focus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" 7
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/focus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/focus.dir/rule
+.PHONY : src/CMakeFiles/focus.dir/rule
 
 # Convenience name for target.
-focus: CMakeFiles/focus.dir/rule
+focus: src/CMakeFiles/focus.dir/rule
 
 .PHONY : focus
 
 # clean rule for target.
-CMakeFiles/focus.dir/clean:
-	$(MAKE) -f CMakeFiles/focus.dir/build.make CMakeFiles/focus.dir/clean
-.PHONY : CMakeFiles/focus.dir/clean
+src/CMakeFiles/focus.dir/clean:
+	$(MAKE) -f src/CMakeFiles/focus.dir/build.make src/CMakeFiles/focus.dir/clean
+.PHONY : src/CMakeFiles/focus.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
