@@ -30,12 +30,7 @@ int main() {
 
   // Print a message for the winner
   printBoard(board);
-  printf(
-    "Congratulations %s\b%s%s you won the game!\n",
-    getColourString(winner.colour),
-    winner.name,
-    getColourString(BLANK)
-  );
+  printf("Congratulations %s you won the game!\n", winner.name);
 
   // End execution
   return 0;

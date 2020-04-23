@@ -8,10 +8,8 @@ number of pieces in reserve */
 void printPlayerInfo(Player players[N_PLAYERS]) {
   for (size_t i = 0; i < N_PLAYERS; i++) {
     printf(
-      "%s\b%s%s has captured \033[1m%zu\033[0m pieces and has \033[1m%zu\033[0m pieces in reserve.\n",
-      getColourString(players[i].colour),
+      "%s has captured \033[1m%zu\033[0m pieces and has \033[1m%zu\033[0m pieces in reserve.\n",
       players[i].name,
-      getColourString(BLANK),
       players[i].captured,
       players[i].reserved
     );
@@ -61,12 +59,7 @@ size_t prompt(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
   char action[6];
 
   // Prompt the user for an action
-  printf(
-    "%s\b%s%s it's your turn!\n",
-    getColourString(player->colour),
-    player->name,
-    getColourString(BLANK)
-  );
+  printf("%s it's your turn!\n", player->name);
   puts("Actions available to you:\n");
   puts("  \033[1mmove\033[0m  Move a stack to another square on the board");
   puts("  \033[1mplace\033[0m Place a piece from your reserve onto the board");

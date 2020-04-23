@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "square.h"
 #include "utils.h"
 
@@ -17,7 +18,21 @@ void initPlayers(Player players[N_PLAYERS]) {
       i + 1,
       getColourString(BLANK)
     );
+
+    // Scan input for player namse
     scanf("%s", players[i].name);
+    // Buffer for string concatenation
+    char buffer[64] = "";
+    // Add colour string corresponding to player colour
+    strcat(buffer, getColourString(colours[i]));
+    // Eliminate colour letter
+    strcat(buffer, "\b");
+    // Reset colour after name print
+    strcat(players[i].name, getColourString(BLANK));
+    // Merge strings
+    strcat(buffer, players[i].name);
+    // Copy to player name
+    strcpy(players[i].name, buffer);
   }
 }
 

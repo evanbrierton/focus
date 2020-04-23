@@ -67,15 +67,8 @@ void peek(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
   Square target = board[pos.y][pos.x];
   Piece * current = target.head;
 
-  // Print the name and colour of the player who peeked
-  printf(
-    "%s\b%s%s peeked the stack at %zu, %zu\n",
-    getColourString(player->colour),
-    player->name,
-    getColourString(BLANK),
-    pos.x,
-    pos.y
-  );
+  // Print the name of the player who peeked
+  printf("%s peeked the stack at %zu, %zu\n", player->name, pos.x, pos.y);
 
   // Print the stack by iterating through it until reaching a null pointer
   printf("<Top>  ");
