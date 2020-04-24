@@ -101,6 +101,9 @@
 		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/testcase.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
 		<Unit filename="/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Software Engineering Project 1/Assignment 2/focus/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\"/>
 		</Unit>
