@@ -4,3 +4,4 @@ project(focus C)
 set(CMAKE_C_STANDARD 99)
 
 add_subdirectory(src)
+configure_file(testcase.txt testcase.txt COPYONLY)

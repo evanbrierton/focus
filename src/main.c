@@ -1,6 +1,7 @@
 // Written by Evan Brierton - 19374423
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "io.h"
 #include "utils.h"
 
@@ -32,6 +33,8 @@ int main() {
   printBoard(board);
   printf("Congratulations %s you won the game!\n", winner.name);
 
-  // End execution
+  // Cleanup and end execution
+  
+  cleanup(board);
   return 0;
 }

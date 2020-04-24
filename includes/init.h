@@ -39,7 +39,7 @@ typedef struct _position {
   size_t y;
 } position;
 
-void init(Player players[N_PLAYERS], Square board[BOARD_SIZE][BOARD_SIZE]);
-void setPiece(Square *, Colour colour);
+void init(Player[N_PLAYERS], Square[BOARD_SIZE][BOARD_SIZE]);
+void setPiece(Square *, Colour);
 
 #endif

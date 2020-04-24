@@ -3,12 +3,12 @@
 #ifndef SQUARE_H
 #define SQUARE_H
 
-void setEmpty(Square * s);
-void setInvalid(Square * s);
+void setEmpty(Square *);
+void setInvalid(Square *);
 
-void clear(Square * square);
-void pop(Square * square, Player * player);
-void merge(Square * origin, Square * target, Player * player);
-void push(Square * target, Player * player);
+void clear(Square *);
+void pop(Square *, Player *);
+void merge(Square *, Square *, Player *);
+void push(Square *, Player *);
 
 #endif

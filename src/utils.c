@@ -70,3 +70,18 @@ bool validTarget(position target, position origin, Square board[BOARD_SIZE][BOAR
   height of the stack and check that the target square is not the same as the orign square */
   return board[target.y][target.x].valid && distance <= board[origin.y][origin.x].height && distance != 0;
 }
+
+void cleanup(Square board[BOARD_SIZE][BOARD_SIZE]) {
+   for (size_t i = 0; i < BOARD_SIZE; i++) {
+    for (size_t j = 0; j < BOARD_SIZE; j++) {
+      if (board[i][j].head) {
+        Piece * current = board[i][j].head;
+        while (current) {
+          Piece * next = current->next;
+          free(current);
+          current = next;
+        }
+      }
+    }
+  }
+}
