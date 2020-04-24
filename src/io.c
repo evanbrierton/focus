@@ -76,7 +76,6 @@ size_t prompt(Player * player, Square board[BOARD_SIZE][BOARD_SIZE]) {
   if (i == nActions) puts("\nInvalid action!");
   else if (actions[i] == move && !canMove(*player, board)) puts("You have no stacks to move!");
   else if (actions[i] == place && !canPlace(*player)) puts("\nYou have no pieces in reserve to place!");
-
   // If the action is valid execute the action and return the value to increment turns with
   else {
     actions[i](player, board);
