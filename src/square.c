@@ -24,7 +24,6 @@ void setInvalid(Square * square) {
 void setPiece(Square * square, Colour colour) {
   square->valid = true;
   square->head = malloc(sizeof(Piece));
-  square->tail = malloc(sizeof(Piece));
   square->head->colour = colour;  // Set to the input colour
   square->head->prev = NULL;
   square->head->next = NULL;
